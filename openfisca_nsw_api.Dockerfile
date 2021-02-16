@@ -5,6 +5,7 @@ COPY . /openfisca_nsw_api
 #### Build API ####
 
 WORKDIR /openfisca_nsw_api/openfisca_nsw_API
+RUN git submodule init && git submodule update 
 RUN python -m pip install ../openfisca_nsw_base/
 RUN python -m pip install ../openfisca_nsw_rules_kids_vouchers/
 RUN python -m pip install ../openfisca_nsw_ess_nabers
