@@ -13,3 +13,6 @@
 [submodule "openfisca_nsw_rules_kids_vouchers"]
 	path = openfisca_nsw_rules_kids_vouchers
 	url = https://github.com/Openfisca-NSW/openfisca_nsw_rules_kids_vouchers.git
+[submodule "openfisca_nsw_ess_sandbox"]
+	path = openfisca-nsw-ess-sandbox
+	url = https://github.com/energy-savings-scheme/openfisca-nsw-ess-sandbox.git
